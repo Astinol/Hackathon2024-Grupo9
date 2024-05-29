@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notícias</title>
+  <link rel="stylesheet" href="style/noticss.css">
+  <script src="Script/notecias.js"></script>
+</head>
+<body>
+  <div class="background-overlay"></div> <!-- Adicionado para escurecer o fundo -->
+  <header>
+    <h1><a href="index.html" style="color: white;text-decoration: none;">Noticias Mongaguá</a></h1>
+    <nav>
+      <ul>
+        <li><a href="#" class="filtro" data-categoria="acidentes">Acidentes</a></li>
+        <li><a href="#" class="filtro" data-categoria="obras">Obras</a></li>
+        <li><a href="#" class="filtro" data-categoria="transito">Transito</a></li>
+        <li><a href="#" id="mostrar-todas">Todos</a></li>
+        <li><a href="mapa.html">Mapa ao vivo</a></li>
+        <li><a href="sac.html">Relate-nos</a></li>
+        <li><a href="#" id="mostrar-notificacoes">Notificações</a></li>
+      </ul>
+    </nav>
+  </header> 
+
+  <div id="popup">
+    <center>
+      <h2>Deseja permitir<br>notificações?</h2>
+      <a href="#" class="btn btn-white btn-animate" id="permitirBtn">Permitir</a>
+    </center>
+  </div>
+
+  <section class="rightnews">
+    <article>
+        <center> <h2></h2> <br>
+        <H4>25/05</H4>
+      <div class="headline transito" id="carroBate">
+        <img src="imagens/acidentes.png" alt="Notícia 1" >
+        <h3>Carro bateu na avenida São Paulo</h3>
+        <p> Ocorreu durante a manhã de hoje, carro bate em poste </p>
+      </div>
+      <div class="headline acidentes" id="pedraCai">
+        <img src="imagens/pedreira.jpg" alt="Notícia 2">
+        <h3>Casa desabou na pedreira:</h3>
+        <p>Casa desabou durante a tarde do dia 25 de Maio depois de chuvas fortes </p>
+      </div>
+      <div class="headline obras" id="">
+        <img src="imagens/revitalizacao.jpeg" alt="Notícia 2">
+        <h3>Novo projeto de revitalização urbana é anunciado: </h3>
+        <p>A praça central recebe este mês uma feira de artesanato e gastronomia, com expositores de diversas regiões do país.</p>
+      </div>
+     
+      <div class="headline acidentes" id="">
+        <img src="imagens/incendio.jpg" alt="Notícia 2">
+        <h3>Incêndio em prédio comercial é controlado pelos bombeiros:</h3>
+        <p>Um incêndio de grande proporção em um prédio comercial foi rapidamente controlado pelo Corpo de Bombeiros da cidade. Não houve feridos, mas danos significativos foram relatados. As autoridades estão investigando a causa do incêndio. </p>
+      </div>
+     
+      <div class="headline obras" id="">
+        <img src="imagens/camera.png" alt="Notícia 2">
+        <h3>Instalação de Câmeras de Segurança</h3>
+        <p>Novas câmeras de segurança foram instaladas em pontos estratégicos da cidade para aumentar a vigilância e a segurança dos moradores.
+
+        </p>
+      </div>
+    </center>
+    </article>
+  </section>
+
+  <section class="leftnews">
+    <article>
+     <center> <h2></h2><br>
+    <h4>27/05</h4> 
+      <div class="headline acidentes" id="arvCai">
+        <img src="imagens/arvore.jpg" alt="Notícia 1" >
+        <h3>árvore caiu perto da escola Regina Maria</h3>
+        <p> Arvore caiu apos fortes chuvas e alagamento na cidade cuidado! </p>
+      </div>
+      <div class="headline obras" id="obraAgenor">
+        <img src="imagens/obras.jpg" alt="Notícia 2">
+        <h3 href="Noticias/ObraAgenor.html">Obra no interior do Agenor:</h3>
+        <p href="Noticias/ObraAgenor.html">Obras interdita rua Principal </p>
+      </div>
+      <div class="headline obras" id="">
+        <img src="imagens/musica.jpg" alt="Notícia 2">
+        <h3>Festival de Música ao Ar Livre </h3>
+        <p>O parque central será palco de um grande festival de música neste final de semana, com bandas locais e internacionais se apresentando gratuitamente.</p>
+      </div>
+     
+      <div class="headline obras" id="">
+        <img src="imagens/reciclagem.jpg" alt="Notícia 2">
+        <h3>Programa de Reciclagem Ampliado</h3>
+        <p>A prefeitura anunciou a expansão do programa de reciclagem, agora incluindo coleta de resíduos orgânicos e materiais eletrônicos. </p>
+      </div>
+     
+      <div class="headline obras" id="">
+        <img src="imagens/rodoviaria.jpg" alt="Notícia 2">
+        <h3>Inauguração do Novo Terminal de Ônibus</h3>
+        <p>A cidade inaugurou hoje um novo terminal de ônibus, que promete melhorar a mobilidade urbana e reduzir o tempo de espera para os passageiros.
+        </p>
+      </div>
+    </center>
+    </article>
+  </section>
+<center>
+  <section class="centernews">
+    <article>
+      <h3>Noticias do Dia</h3>
+      <h4>26/05</h4>
+      <div class="headline obras" id="">
+        <img src="imagens/arvores.jpg" alt="Notícia 1" >
+        <h3>Projeto de Arborização Urbana</h3>
+        <p> Um novo projeto de arborização urbana está sendo implementado, com a plantação de 5.000  </p>
+      </div>
+      <div class="headline obras" id="">
+        <img src="imagens/app.jpeg" alt="Notícia 2">
+        <h3>Lançamento de Aplicativo de Mobilidade</h3>
+        <p>Um novo aplicativo de mobilidade urbana foi lançado, permitindo que os cidadãos encontrem e reservem bicicletas e patinetes elétricos com facilidade.</p>
+      </div>
+      <div class="headline obras" id="">
+        <img src="imagens/escape.jpg" alt="Notícia 2">
+        <h3>Nova Tecnologia Automotiva Promete Reduzir Emissões e Melhorar Desempenho </h3>
+        <p>
+          Uma inovação está agitando a indústria automotiva: o sistema "EcoDrive".</p>
+      </div>
+     
+      <div class="headline obras" id="">
+        <img src="imagens/gastronomia.jpg" a  lt="Notícia 2">
+        <h3>Feira de Artesanato e Gastronomia</h3>
+        <p>Transformar-se de uma lenda para um mestre da gastronomia pode ser um desafio emocionante e delicioso. Aqui está um roteiro básico para essa jornada: </p>
+      </div>
+     
+      <div class="headline transito" id="">
+        <img src="imagens/acidenteonibus.jpg" alt="Notícia 2">
+        <h3>Acidente de trânsito envolvendo transporte público atrasa passageiros:</h3>
+        <p>Um acidente envolvendo um ônibus do transporte público causou atrasos significativos para os passageiros durante a hora do rush da tarde. Equipes de emergência estão no local para prestar assistência e desobstruir a via. </p>
+      </div>
+    </center>
+  </section>
+</body>
+
+<script>
+
+document.getElementById('mostrar-notificacoes').addEventListener('click', function(event) {
+  event.preventDefault();
+  document.getElementById('popup').style.display = 'block';
+  document.querySelector('.background-overlay').style.display = 'block';
+});
+
+document.getElementById('permitirBtn').addEventListener('click', function() {
+  Notification.requestPermission().then(function(permission) {
+    if (permission === 'granted') {
+      sendNotification();
+    }
+    document.getElementById('popup').style.display = 'none';
+    document.querySelector('.background-overlay').style.display = 'none';
+  });
+});
+
+function sendNotification() {
+  var notification = new Notification('Carro bate em Avenida São Paulo', {
+    body: 'Veja mais em nosso site',
+    icon: 'imagens/SketchDesk2.jpg'
+  });
+}
+
+document.getElementById("carroBate").addEventListener("click", function() {
+  window.location.href = "Noticias/AcidenteCarro.html";
+});
+
+document.getElementById("obraAgenor").addEventListener("click", function() {
+  window.location.href = "Noticias/ObraAgenor.html";
+});
+
+document.getElementById("arvCai").addEventListener("click", function() {
+  window.location.href = "Noticias/ArvoreCai.html";
+});
+
+document.getElementById("pedraCai").addEventListener("click", function() {
+  window.location.href = "Noticias/pedreiraDesaba.html";
+});
+
+</script>
+
+</html>
